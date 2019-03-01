@@ -17,7 +17,7 @@ import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
-import avatar from '../images/avatar.jpg'
+import avatar from '../images/me-dtla.jpg'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -63,9 +63,9 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Alex Mireles
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>Developer, Husband, casual guitarrero</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
@@ -103,18 +103,15 @@ const Index = () => (
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Alex Mireles" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            The surest way to corrupt a youth is to instruct him to hold in higher esteem those who think alike than those who think differently. <br/>
+          <small>-Friedrich Wilhelm Nietzsche, The Dawn, 1881</small>
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          I live in Southern California, I am UCLA graduate, speak German and Spanish, and drink beer. In a previous life I worked in the financial services industry and business; primarily in analytical and managerial roles. Now I'm doing what I want and love to do.
+
         </AboutDesc>
       </About>
       <Contact offset={4}>
