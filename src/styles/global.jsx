@@ -21,8 +21,9 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
   a {
-    color: #e07628;
-    text-decoration: none;
+    color: #FCFBEB;
+    text-decoration: none
+    margin-right: 2rem;
   }
 `
 

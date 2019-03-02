@@ -3,6 +3,10 @@ import styled from 'styled-components'
 import tw from 'tailwind.macro'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+
 // Components
 import Layout from '../components/Layout'
 import ProjectCard from '../components/ProjectCard'
@@ -132,11 +136,11 @@ const Index = () => (
       </About>
       <Contact offset={4}>
         <Inner>
-          <Title>Get in touch</Title>
+          <Title>Contact Me</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+              <a href="mailto:mirelescloud@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="fa-3x"/></a>
+              <a href="https://twitter.com/AlexMireles310"><FontAwesomeIcon icon={faLinkedin} className="fa-3x"/></a>
+              <a href="https://www.linkedin.com/in/alex-mireles-0a79999a/"><FontAwesomeIcon icon={faTwitter} className="fa-3x"/></a>
           </ContactText>
         </Inner>
         <Footer>
