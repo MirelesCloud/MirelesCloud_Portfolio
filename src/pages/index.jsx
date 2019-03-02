@@ -68,35 +68,49 @@ const Index = () => (
         <Subtitle>Developer, Husband, casual guitarrero</Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>My Work</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Century Custom Coach"
+            link="https://www.centurycustomcoach"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            Automotive Mechanic, Paint & Body Shop. Just lunched in prod.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="The Yellow Smoke Shop"
+            link="https://www.theyellowsmokeshop.com"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            Head shop in Redondo Beach, CA.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            title="Vapeplace CBD"
+            link="https://vibrant-ptolemy-971c71.netlify.com/"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            CBD Shop in West Los Angeles, CA.  Work in progress.
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
+            title="Heather Watson"
             link="https://www.behance.net/gallery/38068151/Eagle"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            Holistic Health Practitioner.  Just got started on this one.
+          </ProjectCard>
+          <ProjectCard
+            title="Class of '68"
+            link="http://gemstateclassof68.com.s3-website-us-east-1.amazonaws.com/"
+            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+          >
+            One of my first ReactJs based projects.
+          </ProjectCard>
+          <ProjectCard
+            title="Ruby on Rails"
+            link="https://sleepy-mountain-30199.herokuapp.com/welcome"
+            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+          >
+           An older portfolio based on RoR showing various projects.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -124,8 +138,8 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
+          &copy; 2019 <a href="https://mirelescloud.com">MirelesCloud</a>.{' '}
+            Design by{' '}
           <a href="https://www.lekoarts.de">LekoArts</a>.
         </Footer>
       </Contact>
