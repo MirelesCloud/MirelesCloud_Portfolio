@@ -38,13 +38,13 @@ module.exports = {
         display: 'standalone',
         icons: [
           {
-            src: '/favicons/android-chrome-192x192.png',
+            src: '/favicons/android-icon-192x192.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/favicons/android-chrome-512x512.png',
-            sizes: '512x512',
+            src: '/favicons/android-icon-144x144.png',
+            sizes: '144x144',
             type: 'image/png',
           },
         ],
