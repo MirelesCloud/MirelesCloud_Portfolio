@@ -72,6 +72,7 @@ const Index = () => (
     <Parallax pages={6}>
       <Hero offset={0}>
         <BigTitle>
+
           Alex Mireles
         </BigTitle>
         <Subtitle>Developer, Husband, casual guitarrero</Subtitle>
@@ -127,7 +128,18 @@ const Index = () => (
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
-      <About offset={3}>
+      <Skills offset={3}>
+        <Title>TECHNOLOGIES I WORK WITH</Title>
+        <SkillsDesc>
+          <h4>Mostly</h4>
+          <p>Javascript/ReactJS, NodeJS, Graphql, HTML/CSS/Bootstrap, Redux/Saga, NextJS, Gatsby, Netlify, DatoCMS, Jest, Mocha, Enzyme, Linux/OSX, Git, CLI/SSH.</p>
+          <h4>Also</h4>
+          <p>Python, Mongoose/Postman, MySQL, Apache, AWS (EC2, S3, Cloudfront, Codebuild, Codepipeline, Lambda, SNS, SES, Cloudwatch, Route53, DynamoDB) .</p>
+          <h4>In the past</h4>
+          <p>AWS/VPC/VPN/Cloudformation, Ruby on Rails, C++, Java, JQuery.</p>
+        </SkillsDesc>
+      </Skills>
+      <About offset={4}>
         <Title>About me</Title>
         <AboutHero>
           <Avatar src={avatar} alt="Alex Mireles" style={{
@@ -135,25 +147,15 @@ const Index = () => (
             }} />
           <AboutSub>
             The surest way to corrupt a youth is to instruct him to hold in higher esteem those who think alike than those who think differently. <br/>
-          <small>-Friedrich Wilhelm Nietzsche, The Dawn, 1881</small>
+          <small>-- F. W. Nietzsche, The Dawn, 1881</small>
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I live in Southern California, I am UCLA graduate, speak German and Spanish, and drink beer. In a previous life I worked in the financial services industry and business; primarily in analytical and managerial roles. Now I'm doing what I want and love to do.
+          I live in Southern California, I am UCLA graduate, speak German and Spanish, vociferous beer lover. In a previous life I worked in the financial services industry and business; primarily in analytical and managerial roles. Now I'm doing what I want and love to do.
 
         </AboutDesc>
       </About>
-      <Skills offset={4}>
-        <Title>TECHNOLOGIES I WORK WITH</Title>
-        <SkillsDesc>
-          <h4>Mostly</h4>
-          <p>Javascript/ReactJS, NodeJS, Graphql, HTML/CSS/Bootstrap, Redux/Saga, NextJS, Gatsby, Netlify, DatoCMS, Jest/Mocha, Linux/OSX CLI/SSH.</p>
-          <h4>Also</h4>
-          <p>Python, Mongoose/Postman, MySQL, Apache, AWS (EC2, S3, Cloudfront, Codebuild, Codepipeline, Lambda, SNS, SES, Cloudwatch, Route53, DynamoDB) .</p>
-          <h4>In the past</h4>
-          <p>AWS/VPC/VPN/Cloudformation, Ruby on Rails, C++, Java, JQuery.</p>
-        </SkillsDesc>
-      </Skills>
+
       <Contact offset={5}>
         <Inner>
           <Title>Contact Me</Title>

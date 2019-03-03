@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
-  "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
+  "name": "MirelesCloud-Portfolio",
+  "description": "MirelesCloud-Portfolio",
   "version": "3.0.0",
   "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
   "license": "MIT",
@@ -33,8 +33,7 @@
     "typeface-open-sans": "^0.0.54"
   },
   "keywords": [
-    "gatsby",
-    "starter",
+    "MirelesCloud",
     "portfolio"
   ],
   "scripts": {
@@ -63,5 +62,5 @@
   "bugs": {
     "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara/issues"
   },
-  "homepage": "https://cara.lekoarts.de"
+  "homepage": "https://mirelescloud.com"
 }
