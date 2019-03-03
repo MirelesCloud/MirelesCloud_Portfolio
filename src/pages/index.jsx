@@ -5,7 +5,7 @@ import { Parallax } from 'react-spring/renderprops-addons.cjs'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 // Components
 import Layout from '../components/Layout'
@@ -19,6 +19,7 @@ import { Title, BigTitle, Subtitle } from '../elements/Titles'
 import Hero from '../views/Hero'
 import Projects from '../views/Projects'
 import About from '../views/About'
+import Skills from '../views/Skills'
 import Contact from '../views/Contact'
 
 import avatar from '../images/me-dtla.jpg'
@@ -53,6 +54,10 @@ const AboutDesc = styled.p`
   ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
 `
 
+const SkillsDesc = styled.p`
+  ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
+`
+
 const ContactText = styled.p`
   ${tw`text-grey-light font-sans text-xl md:text-2xl lg:text-3xl`};
 `
@@ -64,12 +69,16 @@ const Footer = styled.footer`
 const Index = () => (
   <>
     <Layout />
-    <Parallax pages={5}>
+    <Parallax pages={6}>
       <Hero offset={0}>
         <BigTitle>
           Alex Mireles
         </BigTitle>
         <Subtitle>Developer, Husband, casual guitarrero</Subtitle>
+          <a href="mailto:mirelescloud@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="fa-2x"/></a>
+          <a href="https://www.linkedin.com/in/alex-mireles-0a79999a/"><FontAwesomeIcon icon={faLinkedin} className="fa-2x"/></a>
+          <a href="https://github.com/MirelesCloud"><FontAwesomeIcon icon={faGithub} className="fa-2x"/></a>
+          <a href="https://twitter.com/AlexMireles310"><FontAwesomeIcon icon={faTwitter} className="fa-2x"/></a>
       </Hero>
       <Projects offset={1}>
         <Title>My Work</Title>
@@ -134,13 +143,25 @@ const Index = () => (
 
         </AboutDesc>
       </About>
-      <Contact offset={4}>
+      <Skills offset={4}>
+        <Title>TECHNOLOGIES I WORK WITH</Title>
+        <SkillsDesc>
+          <h4>Mostly</h4>
+          <p>Javascript/ReactJS, NodeJS, Graphql, HTML/CSS/Bootstrap, Redux/Saga, NextJS, Gatsby, Netlify, DatoCMS, Jest/Mocha, Linux/OSX CLI/SSH.</p>
+          <h4>Also</h4>
+          <p>Python, Mongoose/Postman, MySQL, Apache, AWS (EC2, S3, Cloudfront, Codebuild, Codepipeline, Lambda, SNS, SES, Cloudwatch, Route53, DynamoDB) .</p>
+          <h4>In the past</h4>
+          <p>AWS/VPC/VPN/Cloudformation, Ruby on Rails, C++, Java, JQuery.</p>
+        </SkillsDesc>
+      </Skills>
+      <Contact offset={5}>
         <Inner>
           <Title>Contact Me</Title>
           <ContactText>
-              <a href="mailto:mirelescloud@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="fa-3x"/></a>
-              <a href="https://twitter.com/AlexMireles310"><FontAwesomeIcon icon={faLinkedin} className="fa-3x"/></a>
-              <a href="https://www.linkedin.com/in/alex-mireles-0a79999a/"><FontAwesomeIcon icon={faTwitter} className="fa-3x"/></a>
+            <a href="mailto:mirelescloud@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="fa-3x"/></a>
+            <a href="https://www.linkedin.com/in/alex-mireles-0a79999a/"><FontAwesomeIcon icon={faLinkedin} className="fa-3x"/></a>
+            <a href="https://github.com/MirelesCloud"><FontAwesomeIcon icon={faGithub} className="fa-3x"/></a>
+            <a href="https://twitter.com/AlexMireles310"><FontAwesomeIcon icon={faTwitter} className="fa-3x"/></a>
           </ContactText>
         </Inner>
         <Footer>
