@@ -54,7 +54,7 @@ const AboutDesc = styled.p`
   ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
 `
 
-const SkillsDesc = styled.p`
+const SkillsDesc = styled.div`
   ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
 `
 
@@ -131,11 +131,11 @@ const Index = () => (
       <Skills offset={3}>
         <Title>TECHNOLOGIES I WORK WITH</Title>
         <SkillsDesc>
-          <h4>Mostly</h4>
-          <p>Javascript/ReactJS, NodeJS, Graphql, HTML/CSS/Bootstrap, Redux/Saga, NextJS, Gatsby, Netlify, DatoCMS, Jest, Mocha, Enzyme, Linux/OSX, Git, CLI/SSH.</p>
-          <h4>Also</h4>
+          <strong>Mostly</strong>
+          <p>Javascript/ReactJS, ES6, NodeJS, Graphql, HTML/CSS/Bootstrap, Redux/Saga, NextJS, Gatsby, Netlify, DatoCMS, Jest, Mocha, Enzyme, Linux/OSX, Git, CLI/SSH.</p>
+          <strong>Also</strong>
           <p>Python, Mongoose/Postman, MySQL, Apache, AWS (EC2, S3, Cloudfront, Codebuild, Codepipeline, Lambda, SNS, SES, Cloudwatch, Route53, DynamoDB) .</p>
-          <h4>In the past</h4>
+          <strong>In the past</strong>
           <p>AWS/VPC/VPN/Cloudformation, Ruby on Rails, C++, Java, JQuery.</p>
         </SkillsDesc>
       </Skills>
@@ -152,10 +152,8 @@ const Index = () => (
         </AboutHero>
         <AboutDesc>
           I live in Southern California, I am UCLA graduate, speak German and Spanish, vociferous beer lover. In a previous life I worked in the financial services industry and business; primarily in analytical and managerial roles. Now I'm doing what I want and love to do.
-
         </AboutDesc>
       </About>
-
       <Contact offset={5}>
         <Inner>
           <Title>Contact Me</Title>

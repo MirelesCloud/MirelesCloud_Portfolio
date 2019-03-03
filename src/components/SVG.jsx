@@ -23,8 +23,19 @@ const icons = {
         strokeWidth="1px"
         strokeLinejoin="round"
         strokeMiterlimit="10"
-        points="14.921,2.27 28.667,25.5 1.175,25.5 "
+        points="14.921,2.27 28.667,25.5 1.175,25.5"
       />
+    ),
+    viewBox: '0 0 30 30',
+  },
+  testShape: {
+    shape: (
+      <polygon
+        strokeWidth="1px"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        points="22,1 30,21 17,25 12.3,23.4"
+        />
     ),
     viewBox: '0 0 30 30',
   },
