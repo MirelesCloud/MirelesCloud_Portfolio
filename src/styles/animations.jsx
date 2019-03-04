@@ -66,11 +66,11 @@ const arcRise = keyframes`
   }
 `
 const arcAnimation = css`
-  ${arcRise} 30s linear infinite;
+  ${arcRise} 40s linear infinite;
 `
 
 const colorChangeAnimation = css`
-  ${colorChange} 15s ease-in-out infinite alternate;
+  ${colorChange} 40s ease-in-out infinite alternate;
 `
 
 const leftRightAnimation = css`
