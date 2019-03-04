@@ -168,8 +168,6 @@ const Index = () => (
         </Inner>
         <Footer>
           &copy; 2019 <a href="https://mirelescloud.com">MirelesCloud</a>.{' '}
-            Design by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
         </Footer>
       </Contact>
     </Parallax>

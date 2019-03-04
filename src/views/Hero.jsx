@@ -21,8 +21,8 @@ const Hero = ({ children, offset }) => (
         <SVG icon="box" hiddenMobile width={64} fill={colors.purple} left="5%" top="90%" />
       </ColorChange>
       <ArcRise>
-        <SVG icon="circle" width={12} fill={colors['yellow-light']} left="0" top="50%" />
-
+        <SVG icon="sunShape" width={48} fill={colors['yellow-light']} left="0" top="50%" />
+          
       </ArcRise>
       <LeftRight>
         <SVG icon="steps" width={48} stroke={colors['blue-lighter']} left="5%" top="10%"/>

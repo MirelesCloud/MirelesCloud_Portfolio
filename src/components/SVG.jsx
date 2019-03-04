@@ -31,10 +31,9 @@ const icons = {
   sunShape: {
     shape: (
       <circle
-        cx="50"
-        cy="50"
-        r="40"
-        fill="#FFF382"
+        cx="5"
+        cy="5"
+        r="4"
         />
     ),
     viewBox: '0 0 30 30',
