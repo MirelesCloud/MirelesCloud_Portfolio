@@ -82,12 +82,12 @@ const Head = props => {
       <html lang={config.siteLanguage} />
       <title>{title}</title>
 
-      <link rel="icon preload" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
-      <link rel="icon preload" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
-      <link rel="icon preload" type="image/png" sizes="512x512" href="/favicons/favicon-512x512.png" />
+      <link rel="icon preload" as="image" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+      <link rel="icon preload" as="image" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+      <link rel="icon preload" as="image" type="image/png" sizes="512x512" href="/favicons/favicon-512x512.png" />
       <meta name="gatsby-starter" content="MirelesCloud Portfolio" />
-      <link rel="shortcut icon preload" href="favicon.ico" />
-      <link rel="icon preload" href="/favicon.ico" type="image/x-icon"/>
+      <link rel="shortcut icon" href="favicon.ico" />
+      <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
       <meta name="msapplication-TileColor" content={config.backgroundColor} />
       <meta name="msapplication-config" content="browserconfig.xml" />
       <meta name="description" content={description} />
