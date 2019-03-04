@@ -105,8 +105,8 @@ const Head = props => {
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
       <meta name="twitter:image:alt" content={description} />
-      <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>
-      <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
+      <script rel="preload" type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>
+      <script rel="preload" type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
     </Helmet>
   )
 }
