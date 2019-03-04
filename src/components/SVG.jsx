@@ -34,7 +34,6 @@ const icons = {
         cx="5"
         cy="5"
         r="4"
-
         />
     ),
     viewBox: '0 0 30 30',
