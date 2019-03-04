@@ -82,9 +82,9 @@ const Head = props => {
       <html lang={config.siteLanguage} />
       <title>{title}</title>
 
-      <link rel="icon preload" as="image" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
-      <link rel="icon preload" as="image" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
-      <link rel="icon preload" as="image" type="image/png" sizes="512x512" href="/favicons/favicon-512x512.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+      <link rel="icon" type="image/png" sizes="512x512" href="/favicons/favicon-512x512.png" />
       <meta name="gatsby-starter" content="MirelesCloud Portfolio" />
       <link rel="shortcut icon" href="favicon.ico" />
       <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
@@ -106,8 +106,8 @@ const Head = props => {
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
       <meta name="twitter:image:alt" content={description} />
-      <script rel="preload" type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>
-      <script rel="preload" type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
+      <script rel="preload" as="script" type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>
+      <script rel="preload" as="script" type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
     </Helmet>
   )
 }
