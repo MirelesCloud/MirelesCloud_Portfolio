@@ -40,12 +40,64 @@ const upDownWide = keyframes`
   }
 `
 
+const leftRight = keyframes`
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200px);
+  }
+`
+const colorChange = keyframes`
+  from {
+    background-color: ##191E38;
+  }
+  to {
+    background-color: #5661B3;
+  }
+`
+
+const arcRise = keyframes`
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+`
+const arcAnimation = css`
+  ${arcRise} 30s linear infinite;
+`
+
+const colorChangeAnimation = css`
+  ${colorChange} 15s ease-in-out infinite alternate;
+`
+
+const leftRightAnimation = css`
+  ${leftRight} 18s ease-in-out infinite alternate;
+`
+
 const upDownAnimation = css`
   ${upDown} 4s ease-in-out infinite alternate;
 `
 
 const upDownWideAnimation = css`
   ${upDownWide} 18s ease-in-out infinite alternate;
+`
+
+export const ArcRise = styled.div`
+  animation: ${arcAnimation};
+  ${tw`pin absolute`};
+`
+
+export const ColorChange = styled.div`
+  animation: ${colorChangeAnimation};
+  ${tw`pin absolute`};
+`
+
+export const LeftRight = styled.div`
+  animation: ${leftRightAnimation};
+  ${tw`pin absolute`};
 `
 
 export const UpDown = styled.div`

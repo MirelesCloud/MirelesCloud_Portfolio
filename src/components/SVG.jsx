@@ -28,16 +28,50 @@ const icons = {
     ),
     viewBox: '0 0 30 30',
   },
-  testShape: {
+  sunShape: {
+    shape: (
+      <circle
+        cx="50"
+        cy="50"
+        r="40"
+        fill="#FFF382"
+        />
+    ),
+    viewBox: '0 0 30 30',
+  },
+  star: {
     shape: (
       <polygon
         strokeWidth="1px"
         strokeLinejoin="round"
         strokeMiterlimit="10"
-        points="22,1 30,21 17,25 12.3,23.4"
+        points="10,1 4,19.8 19,7.8 1,7.8 16,19.8"
         />
     ),
-    viewBox: '0 0 30 30',
+    viewBox: '0 0 30 30'
+  },
+  ellipse: {
+    shape: (
+      <ellipse
+        strokeWidth="1px"
+        cx="20"
+        cy="8"
+        rx="10"
+        ry="5"
+        />
+    ),
+    viewBox: '0 0 30 30'
+  },
+  steps: {
+    shape: (
+      <polyline
+        strokeWidth="1px"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        points="0,4 4,4 4,8 8,8 8,12 12, 12,12,16 16,16 16,20 20,20 20"
+        />
+    ),
+    viewBox: '0 0 30 30'
   },
   circle: {
     shape: (

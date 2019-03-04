@@ -76,10 +76,10 @@ const Index = () => (
           Alex Mireles
         </BigTitle>
         <Subtitle>Developer, Husband, casual guitarrero</Subtitle>
-          <a href="mailto:mirelescloud@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="fa-2x"/></a>
-          <a href="https://www.linkedin.com/in/alex-mireles-0a79999a/"><FontAwesomeIcon icon={faLinkedin} className="fa-2x"/></a>
-          <a href="https://github.com/MirelesCloud"><FontAwesomeIcon icon={faGithub} className="fa-2x"/></a>
-          <a href="https://twitter.com/AlexMireles310"><FontAwesomeIcon icon={faTwitter} className="fa-2x"/></a>
+          <a href="mailto:mirelescloud@gmail.com" aria-label="e-mail"><FontAwesomeIcon icon={faEnvelope} className="fa-2x"/></a>
+          <a href="https://www.linkedin.com/in/alex-mireles-0a79999a/" aria-label="linkedin"><FontAwesomeIcon icon={faLinkedin} className="fa-2x"/></a>
+          <a href="https://github.com/MirelesCloud" aria-label="Github"><FontAwesomeIcon icon={faGithub} className="fa-2x"/></a>
+          <a href="https://twitter.com/AlexMireles310" aria-label="Twitter"><FontAwesomeIcon icon={faTwitter} className="fa-2x"/></a>
       </Hero>
       <Projects offset={1}>
         <Title>My Work</Title>
@@ -146,22 +146,24 @@ const Index = () => (
               filter:"grayscale(100%)"
             }} />
           <AboutSub>
-            The surest way to corrupt a youth is to instruct him to hold in higher esteem those who think alike than those who think differently. <br/>
-          <small>-- F. W. Nietzsche, The Dawn, 1881</small>
+            I live in Southern California, I am a UCLA graduate, speak German and Spanish, vociferous beer lover. In a previous life I worked in the financial services industry and business; primarily in analytical and managerial roles. Now I'm doing what I want and love to do.
+
+
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I live in Southern California, I am UCLA graduate, speak German and Spanish, vociferous beer lover. In a previous life I worked in the financial services industry and business; primarily in analytical and managerial roles. Now I'm doing what I want and love to do.
+          The surest way to corrupt a youth is to instruct him to hold in higher esteem those who think alike than those who think differently. <br/>
+        <small>-- F. W. Nietzsche, The Dawn, 1881</small>
         </AboutDesc>
       </About>
       <Contact offset={5}>
         <Inner>
           <Title>Contact Me</Title>
           <ContactText>
-            <a href="mailto:mirelescloud@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="fa-3x"/></a>
-            <a href="https://www.linkedin.com/in/alex-mireles-0a79999a/"><FontAwesomeIcon icon={faLinkedin} className="fa-3x"/></a>
-            <a href="https://github.com/MirelesCloud"><FontAwesomeIcon icon={faGithub} className="fa-3x"/></a>
-            <a href="https://twitter.com/AlexMireles310"><FontAwesomeIcon icon={faTwitter} className="fa-3x"/></a>
+            <a href="mailto:mirelescloud@gmail.com" aria-label="e-mail"><FontAwesomeIcon icon={faEnvelope} className="fa-2x"/></a>
+            <a href="https://www.linkedin.com/in/alex-mireles-0a79999a/" aria-label="linkedin"><FontAwesomeIcon icon={faLinkedin} className="fa-2x"/></a>
+            <a href="https://github.com/MirelesCloud" aria-label="Github"><FontAwesomeIcon icon={faGithub} className="fa-2x"/></a>
+            <a href="https://twitter.com/AlexMireles310" aria-label="Twitter"><FontAwesomeIcon icon={faTwitter} className="fa-2x"/></a>
           </ContactText>
         </Inner>
         <Footer>
