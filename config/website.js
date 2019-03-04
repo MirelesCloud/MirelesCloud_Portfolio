@@ -10,6 +10,8 @@ module.exports = {
   siteUrl: 'https://mirelescloud.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logo.png', // Used for SEO and manifest
+  siteIconSmall: '/favicon-192x192.png', // Used for Manifest
+  siteIconLarge: '/favicon-512x512.png',  //Used for Manifest
   siteDescription: 'MirelesCloud one page website with Parallax effect',
   author: 'MirelesCloud', // Author for schema.org JSONLD
 
