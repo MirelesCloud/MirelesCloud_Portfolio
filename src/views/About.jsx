@@ -13,15 +13,15 @@ const About = ({ children, offset }) => (
     <Divider speed={0.1} offset={offset}>
       <UpDown>
         <SVG icon="star" hiddenMobile width={6} fill={colors.blue} left="50%" top="75%" />
-        <SVG icon="upDown" hiddenMobile width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
+        <SVG icon="star" hiddenMobile width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
         <SVG icon="star" width={8} stroke={colors['grey-darkest']} left="25%" top="5%" />
-        <SVG icon="upDown" hiddenMobile width={24} fill={colors.orange} left="80%" top="80%" />
+        <SVG icon="star" hiddenMobile width={24} fill={colors.orange} left="80%" top="80%" />
       </UpDown>
       <UpDownWide>
-        <SVG icon="arrowUp" hiddenMobile width={16} fill={colors.purple} left="5%" top="80%" />
+        <SVG icon="star" hiddenMobile width={16} fill={colors.purple} left="5%" top="80%" />
         <SVG icon="star" width={12} stroke={colors.white} left="95%" top="50%" />
         <SVG icon="star" width={6} fill={colors.white} left="85%" top="15%" />
-        <SVG icon="upDown" hiddenMobile width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
+        <SVG icon="star" hiddenMobile width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
       </UpDownWide>
       <SVG icon="star" width={6} fill={colors.white} left="4%" top="20%" />
       <SVG icon="star" width={12} fill={colors['grey-darkest']} left="70%" top="60%" />

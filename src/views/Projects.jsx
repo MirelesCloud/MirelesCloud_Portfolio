@@ -26,7 +26,7 @@ const Projects = ({ children, offset }) => (
         <SVG icon="star" hiddenMobile width={24} fill={colors.white} left="17%" top="60%" />
       </UpDown>
       <UpDownWide>
-        <SVG icon="arrowUp" hiddenMobile width={16} fill={colors.green} left="20%" top="90%" />
+        <SVG icon="star" hiddenMobile width={16} fill={colors.green} left="20%" top="90%" />
         <SVG icon="star" width={12} stroke={colors.white} left="90%" top="30%" />
         <SVG icon="star" width={16} fill={colors.yellow} left="70%" top="90%" />
         <SVG icon="star" hiddenMobile width={16} stroke={colors.teal} left="18%" top="75%" />

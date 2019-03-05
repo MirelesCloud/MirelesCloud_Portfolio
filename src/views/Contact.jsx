@@ -47,12 +47,12 @@ const Contact = ({ children, offset }) => (
     </Content>
     <Divider speed={0.1} offset={offset}>
       <UpDown>
-        <SVG icon="upDown" hiddenMobile width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
+        <SVG icon="star" hiddenMobile width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
         <SVG icon="star" width={8} stroke={colors['grey-darkest']} left="25%" top="5%" />
       </UpDown>
       <UpDownWide>
         <SVG icon="star" width={12} fill={colors.red} left="95%" top="50%" />
-        <SVG icon="star" width={6} fill={colors.white} left="85%" top="15%" />
+        <SVG icon="ellipse" width={6} fill={colors['yellow-darker']} left="85%" top="15%" />
         <SVG icon="star" hiddenMobile width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
       </UpDownWide>
       <SVG icon="star" width={6} fill={colors.white} left="4%" top="20%" />
