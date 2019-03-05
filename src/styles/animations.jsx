@@ -60,17 +60,48 @@ const colorChange = keyframes`
 const arcRise = keyframes`
   0% {
     transform: rotate(0deg);
+
+
   }
   100% {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
+
+
   }
 `
+
+const sunRise = keyframes`
+ from {
+  background-color: #F2D024;
+  }
+  to  {
+  background-color: #FCFBEB;
+  }
+`
+
+const saturnRise = keyframes`
+  from {
+    color: #E3342F;
+  }
+  to {
+    color: #3B0D0C;
+  }
+`
+const saturnRiseAnimation = css`
+  ${saturnRise} 4s ease-in-out infinite alternate;
+`
+
+
+const sunRiseAnimation = css`
+ ${sunRise} 40s linear infinite alternate;
+`
+
 const arcAnimation = css`
   ${arcRise} 40s linear infinite;
 `
 
 const colorChangeAnimation = css`
-  ${colorChange} 40s ease-in-out infinite alternate;
+  ${colorChange} 15s ease-in-out infinite alternate;
 `
 
 const leftRightAnimation = css`
@@ -83,6 +114,15 @@ const upDownAnimation = css`
 
 const upDownWideAnimation = css`
   ${upDownWide} 18s ease-in-out infinite alternate;
+`
+export const SaturnRise = styled.div`
+  animation: ${saturnRiseAnimation};
+  ${tw`pin absolute`};
+`
+
+export const SunRise = styled.div`
+  animation: ${sunRiseAnimation};
+  ${tw`pin absolute`};
 `
 
 export const ArcRise = styled.div`

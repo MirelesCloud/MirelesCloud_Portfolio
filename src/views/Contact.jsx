@@ -35,7 +35,7 @@ const Contact = ({ children, offset }) => (
                 attributeName="d"
                 values="M 0 100 Q 250 50 400 200 Q 550 350 800 300 L 800 0 L 0 0 L 0 100 Z;M 0 100 Q 200 150 400 200 Q 600 250 800 300 L 800 0 L 0 0 L 0 100 Z;M 0 100 Q 150 350 400 200 Q 650 50 800 300 L 800 0 L 0 0 L 0 100 Z"
                 repeatCount="indefinite"
-                dur="30s"
+                dur="10s"
               />
             </path>
           </svg>
@@ -48,17 +48,17 @@ const Contact = ({ children, offset }) => (
     <Divider speed={0.1} offset={offset}>
       <UpDown>
         <SVG icon="upDown" hiddenMobile width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
-        <SVG icon="triangle" width={8} stroke={colors['grey-darkest']} left="25%" top="5%" />
+        <SVG icon="star" width={8} stroke={colors['grey-darkest']} left="25%" top="5%" />
       </UpDown>
       <UpDownWide>
-        <SVG icon="triangle" width={12} stroke={colors.white} left="95%" top="50%" />
-        <SVG icon="circle" width={6} fill={colors.white} left="85%" top="15%" />
-        <SVG icon="upDown" hiddenMobile width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
+        <SVG icon="star" width={12} fill={colors.red} left="95%" top="50%" />
+        <SVG icon="star" width={6} fill={colors.white} left="85%" top="15%" />
+        <SVG icon="star" hiddenMobile width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
       </UpDownWide>
-      <SVG icon="circle" width={6} fill={colors.white} left="4%" top="20%" />
-      <SVG icon="circle" width={12} fill={colors['grey-darkest']} left="70%" top="60%" />
-      <SVG icon="box" width={12} fill={colors['grey-darkest']} left="20%" top="30%" />
-      <SVG icon="hexa" width={8} stroke={colors['grey-darkest']} left="80%" top="70%" />
+      <SVG icon="star" width={6} fill={colors.white} left="4%" top="20%" />
+      <SVG icon="star" width={12} fill={colors['orange-darker']} left="70%" top="60%" />
+      <SVG icon="star" width={12} fill={colors['grey-darkest']} left="20%" top="30%" />
+      <SVG icon="star" width={8} stroke={colors['grey-darkest']} left="80%" top="70%" />
     </Divider>
   </>
 )

@@ -147,8 +147,6 @@ const Index = () => (
             }} />
           <AboutSub>
             I live in Southern California, I am a UCLA graduate, speak German and Spanish, vociferous beer lover. In a previous life I worked in the financial services industry and business; primarily in analytical and managerial roles. Now I'm doing what I want and love to do.
-
-
           </AboutSub>
         </AboutHero>
         <AboutDesc>
