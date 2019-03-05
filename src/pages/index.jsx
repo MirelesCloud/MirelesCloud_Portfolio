@@ -87,42 +87,42 @@ const Index = () => (
           <ProjectCard
             title="Century Custom Coach"
             link="https://www.centurycustomcoach"
-            bg="linear-gradient(to right, #EF5753 0%, #CC1F1A 100%)"
+            bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
             Automotive Mechanic, Paint & Body Shop. Just lunched in prod.
           </ProjectCard>
           <ProjectCard
             title="The Yellow Smoke Shop"
             link="https://www.theyellowsmokeshop.com"
-            bg="linear-gradient(to right, #F2D024 0%, #684F1D 100%)"
+            bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
             Head shop in Redondo Beach, CA.
           </ProjectCard>
           <ProjectCard
             title="Vapeplace CBD"
             link="https://vibrant-ptolemy-971c71.netlify.com/"
-            bg="linear-gradient(to right, #51D88A 0%, #1F9D55 100%)"
+            bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
             CBD Shop in West Los Angeles, CA.  Work in progress.
           </ProjectCard>
           <ProjectCard
             title="Heather Watson"
             link="https://www.behance.net/gallery/38068151/Eagle"
-            bg="linear-gradient(to right, #7886D7 0%, #5661B3 100%)"
+            bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
             Holistic Health Practitioner.  Just got started on this one.
           </ProjectCard>
           <ProjectCard
             title="Class of '68"
             link="http://gemstateclassof68.com.s3-website-us-east-1.amazonaws.com/"
-            bg="linear-gradient(to right, #A779E9 0%, #794ACF 100%)"
+            bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
             One of my first ReactJs based projects.
           </ProjectCard>
           <ProjectCard
             title="Ruby on Rails"
             link="https://sleepy-mountain-30199.herokuapp.com/welcome"
-            bg="linear-gradient(to right, #FA7EA8 0%, #EB5286 100%)"
+            bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
            An older portfolio based on RoR showing various projects.
           </ProjectCard>

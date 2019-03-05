@@ -9,7 +9,7 @@ import SVG from '../components/SVG'
 
 const Skills = ({ children, offset }) => (
   <>
-    <Divider bg="#5661B3" clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)" speed={0.2} offset={offset} />
+    <Divider bg="#5661B3" clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)" speed={0.2} offset={offset} bg="linear-gradient(#5661B3, #2F365F, #191E38, #2F365F)"/>
     <Divider speed={0.1} offset={offset}>
       <UpDown>
         <SVG icon="star" hiddenMobile width={6} fill={colors.blue} left="50%" top="75%" />
