@@ -107,10 +107,10 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Heather Watson"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            link="https://www.golivewell.com"
             bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
-            Holistic Health Practitioner.  Just got started on this one.
+            Holistic Health Practitioner.  Just launched in production.
           </ProjectCard>
           <ProjectCard
             title="Class of '68"
@@ -146,7 +146,7 @@ const Index = () => (
               filter:"grayscale(100%)"
             }} />
           <AboutSub>
-            I live in Southern California, I am a UCLA graduate, speak German and Spanish and am a voracious beer lover. In a previous life, I worked in the financial services industry and business; primarily in analytical and managerial roles. Now I'm doing what I want and love to do.
+            I live in Southern California, I am a UCLA graduate, speak German and Spanish, beer lover - hell raiser. In a previous life, I worked in the financial services industry and business; primarily in analytical and managerial roles. Now I'm doing what I want and love to do.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
