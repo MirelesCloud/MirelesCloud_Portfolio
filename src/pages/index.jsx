@@ -86,10 +86,10 @@ const Index = () => (
         <ProjectsWrapper>
           <ProjectCard
             title="Century Custom Coach"
-            link="https://www.centurycustomcoach"
+            link="https://www.centurycustomcoach.com"
             bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
-            Automotive Mechanic, Paint & Body Shop. Just lunched in prod.
+            Automotive Mechanic, Paint & Body Shop in West L.A.
           </ProjectCard>
           <ProjectCard
             title="The Yellow Smoke Shop"
