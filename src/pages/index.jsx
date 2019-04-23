@@ -103,7 +103,7 @@ const Index = () => (
             link="https://mirelescloud-node-weather-app.herokuapp.com/"
             bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
-            CBD Shop in West Los Angeles, CA.  Work in progress.
+            The obligatory NodeJs/Express project.
           </ProjectCard>
           <ProjectCard
             title="Go Live Well"
@@ -113,11 +113,11 @@ const Index = () => (
             Holistic Health Practitioner.  Just launched in production.
           </ProjectCard>
           <ProjectCard
-            title="White Rave (DEV)"
+            title="White Raven"
             link="https://flamboyant-shirley-46de22.netlify.com//"
             bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
-            One of my first ReactJs based projects.
+            Artist Web App in current development.
           </ProjectCard>
           <ProjectCard
             title="Ruby on Rails"
