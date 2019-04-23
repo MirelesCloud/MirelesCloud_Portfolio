@@ -99,22 +99,22 @@ const Index = () => (
             Head shop in Redondo Beach, CA.
           </ProjectCard>
           <ProjectCard
-            title="Vapeplace CBD"
-            link="https://vibrant-ptolemy-971c71.netlify.com/"
+            title="NodeJs Weather App"
+            link="https://mirelescloud-node-weather-app.herokuapp.com/"
             bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
             CBD Shop in West Los Angeles, CA.  Work in progress.
           </ProjectCard>
           <ProjectCard
-            title="Heather Watson"
+            title="Go Live Well"
             link="https://www.golivewell.com"
             bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
             Holistic Health Practitioner.  Just launched in production.
           </ProjectCard>
           <ProjectCard
-            title="Class of '68"
-            link="http://gemstateclassof68.com.s3-website-us-east-1.amazonaws.com/"
+            title="White Rave (DEV)"
+            link="https://flamboyant-shirley-46de22.netlify.com//"
             bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
             One of my first ReactJs based projects.
