@@ -99,7 +99,7 @@ const Index = () => (
             Head shop in Redondo Beach, CA.
           </ProjectCard>
           <ProjectCard
-            title="NodeJs Weather App"
+            title="Weather App"
             link="https://mirelescloud-node-weather-app.herokuapp.com/"
             bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
