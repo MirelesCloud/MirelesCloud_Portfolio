@@ -71,15 +71,20 @@ const Index = () => (
     <Layout />
     <Parallax pages={6}>
       <Hero offset={0}>
-        <BigTitle>
-
-          Alex Mireles
-        </BigTitle>
+        <BigTitle>Alex Mireles</BigTitle>
         <Subtitle>Developer, Husband, casual guitarrero</Subtitle>
-          <a href="mailto:mirelescloud@gmail.com" aria-label="e-mail"><FontAwesomeIcon icon={faEnvelope} className="fa-2x"/></a>
-          <a href="https://www.linkedin.com/in/alex-mireles-0a79999a/" aria-label="linkedin"><FontAwesomeIcon icon={faLinkedin} className="fa-2x"/></a>
-          <a href="https://github.com/MirelesCloud" aria-label="Github"><FontAwesomeIcon icon={faGithub} className="fa-2x"/></a>
-          <a href="https://twitter.com/AlexMireles310" aria-label="Twitter"><FontAwesomeIcon icon={faTwitter} className="fa-2x"/></a>
+        <a href="mailto:mirelescloud@gmail.com" aria-label="e-mail">
+          <FontAwesomeIcon icon={faEnvelope} className="fa-2x" />
+        </a>
+        <a href="https://www.linkedin.com/in/alex-mireles-0a79999a/" aria-label="linkedin">
+          <FontAwesomeIcon icon={faLinkedin} className="fa-2x" />
+        </a>
+        <a href="https://github.com/MirelesCloud" aria-label="Github">
+          <FontAwesomeIcon icon={faGithub} className="fa-2x" />
+        </a>
+        <a href="https://twitter.com/AlexMireles310" aria-label="Twitter">
+          <FontAwesomeIcon icon={faTwitter} className="fa-2x" />
+        </a>
       </Hero>
       <Projects offset={1}>
         <Title>My Work</Title>
@@ -110,7 +115,7 @@ const Index = () => (
             link="https://www.golivewell.com"
             bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
-            Holistic Health Practitioner.  Just launched in production.
+            Holistic Health Practitioner. Just launched in production.
           </ProjectCard>
           <ProjectCard
             title="White Raven"
@@ -120,11 +125,11 @@ const Index = () => (
             Artist Web App in current development.
           </ProjectCard>
           <ProjectCard
-            title="Ruby on Rails"
-            link="https://sleepy-mountain-30199.herokuapp.com/welcome"
+            title="NY Times Book Reviews"
+            link="https://mirelescloud.github.io/mirelescloud-nytimes-book-review/"
             bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
-           An older portfolio based on RoR showing various projects.
+            A react-app using REST API
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -132,9 +137,15 @@ const Index = () => (
         <Title>TECHNOLOGIES I WORK WITH</Title>
         <SkillsDesc>
           <strong>Mostly</strong>
-          <p>Javascript/ReactJS, ES6, NodeJS, Graphql, HTML/CSS/Bootstrap, Redux/Saga, NextJS, Gatsby, Netlify, DatoCMS, Jest, Mocha, Enzyme, Linux/OSX, Git, CLI/SSH.</p>
+          <p>
+            Javascript/ReactJS, ES6, NodeJS, Graphql, HTML/CSS/Bootstrap, Redux/Saga, NextJS, Gatsby, Netlify, DatoCMS,
+            Jest, Mocha, Enzyme, Linux/OSX, Git, CLI/SSH.
+          </p>
           <strong>Also</strong>
-          <p>Python, Mongoose/Postman, MySQL, Apache, AWS (EC2, S3, Cloudfront, Codebuild, Codepipeline, Lambda, SNS, SES, Cloudwatch, Route53, DynamoDB) .</p>
+          <p>
+            Python, Mongoose/Postman, MySQL, Apache, AWS (EC2, S3, Cloudfront, Codebuild, Codepipeline, Lambda, SNS,
+            SES, Cloudwatch, Route53, DynamoDB) .
+          </p>
           <strong>In the past</strong>
           <p>AWS/VPC/VPN/Cloudformation, Ruby on Rails, C++, Java, JQuery.</p>
         </SkillsDesc>
@@ -142,26 +153,40 @@ const Index = () => (
       <About offset={4}>
         <Title>About me</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="Alex Mireles" style={{
-              filter:"grayscale(100%)"
+          <Avatar
+            src={avatar}
+            alt="Alex Mireles"
+            style={{
+              filter: 'grayscale(100%)',
             }} />
           <AboutSub>
-            I live in Southern California, I am a UCLA graduate, speak German and Spanish, beer lover - hell raiser. In a previous life, I worked in the financial services industry and business; primarily in analytical and managerial roles. Now I'm doing what I want and love to do.
+            I live in Southern California, I am a UCLA graduate, speak German and Spanish, beer lover - hell raiser. In
+            a previous life, I worked in the financial services industry and business; primarily in analytical and
+            managerial roles. Now I'm doing what I want and love to do.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          The surest way to corrupt a youth is to instruct him to hold in higher esteem those who think alike than those who think differently. <br/>
-        <small>-- F. W. Nietzsche, The Dawn, 1881</small>
+          The surest way to corrupt a youth is to instruct him to hold in higher esteem those who think alike than those
+          who think differently. <br />
+          <small>-- F. W. Nietzsche, The Dawn, 1881</small>
         </AboutDesc>
       </About>
       <Contact offset={5}>
         <Inner>
           <Title>Contact Me</Title>
           <ContactText>
-            <a href="mailto:mirelescloud@gmail.com" aria-label="e-mail"><FontAwesomeIcon icon={faEnvelope} className="fa-2x"/></a>
-            <a href="https://www.linkedin.com/in/alex-mireles-0a79999a/" aria-label="linkedin"><FontAwesomeIcon icon={faLinkedin} className="fa-2x"/></a>
-            <a href="https://github.com/MirelesCloud" aria-label="Github"><FontAwesomeIcon icon={faGithub} className="fa-2x"/></a>
-            <a href="https://twitter.com/AlexMireles310" aria-label="Twitter"><FontAwesomeIcon icon={faTwitter} className="fa-2x"/></a>
+            <a href="mailto:mirelescloud@gmail.com" aria-label="e-mail">
+              <FontAwesomeIcon icon={faEnvelope} className="fa-2x" />
+            </a>
+            <a href="https://www.linkedin.com/in/alex-mireles-0a79999a/" aria-label="linkedin">
+              <FontAwesomeIcon icon={faLinkedin} className="fa-2x" />
+            </a>
+            <a href="https://github.com/MirelesCloud" aria-label="Github">
+              <FontAwesomeIcon icon={faGithub} className="fa-2x" />
+            </a>
+            <a href="https://twitter.com/AlexMireles310" aria-label="Twitter">
+              <FontAwesomeIcon icon={faTwitter} className="fa-2x" />
+            </a>
           </ContactText>
         </Inner>
         <Footer>
