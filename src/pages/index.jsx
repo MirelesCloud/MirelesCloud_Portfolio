@@ -101,7 +101,7 @@ const Index = () => (
             link="https://www.theyellowsmokeshop.com"
             bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
-            Head shop in Redondo Beach, CA.
+            Smoke shop in Redondo Beach, CA.
           </ProjectCard>
           <ProjectCard
             title="Weather App"
@@ -138,16 +138,16 @@ const Index = () => (
         <SkillsDesc>
           <strong>Mostly</strong>
           <p>
-            Javascript/ReactJS, ES6, NodeJS, Graphql, HTML/CSS/Bootstrap, Redux/Saga, NextJS, Gatsby, Netlify, DatoCMS,
-            Jest, Mocha, Enzyme, Linux/OSX, Git, CLI/SSH.
+            Javascript/ReactJS, ES6/Typescript, HTML/CSS(Boostrap, styled-components, emotion, reacstrap),
+            npx/Gatsbyjs/Webpack/Parcel/Babel, NodeJS, Apollo/Graphql, REST API, Linux/OSX, Git, CLI/SSH.
           </p>
-          <strong>Also</strong>
+          <strong>Sometimes</strong>
           <p>
-            Python, Mongoose/Postman, MySQL, Apache, AWS (EC2, S3, Cloudfront, Codebuild, Codepipeline, Lambda, SNS,
+            MongoDB, Python, Jest, Mocha, Enzyme, AWS (EC2, S3, Cloudfront, Codebuild, Codepipeline, Lambda, SNS, SES,
             SES, Cloudwatch, Route53, DynamoDB) .
           </p>
           <strong>In the past</strong>
-          <p>AWS/VPC/VPN/Cloudformation, Ruby on Rails, C++, Java, JQuery.</p>
+          <p>AWS/VPC/VPN/Cloudformation, Ruby on Rails, C++, JQuery.</p>
         </SkillsDesc>
       </Skills>
       <About offset={4}>
