@@ -104,11 +104,11 @@ const Index = () => (
             Smoke shop in Redondo Beach, CA.
           </ProjectCard>
           <ProjectCard
-            title="Weather App"
-            link="https://mirelescloud-node-weather-app.herokuapp.com/"
+            title="El Nogal Crop Monitor"
+            link="https://nifty-neumann-9cf365.netlify.app"
             bg="linear-gradient(-45deg, #22292F 15%, #3D4852, #22292F)"
           >
-            The obligatory NodeJs/Express project.
+            A crop and water managment application with a Nodejs/Apollo Graphql backend. In current development.
           </ProjectCard>
           <ProjectCard
             title="Go Live Well"
